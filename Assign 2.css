@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: orange;
+}
+
+.nav-wrapper{
+    background-color: white;
+    padding: 10px 30px;
+    height: 60px;
+}
+
+.nav-wrapper nav{
+    display: flex;
+    gap: 40rem;
+}
+
+menu ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 17px 0px;
+    cursor: pointer;
+}
+
+.img-text{
+    display: flex;
+}
+
+.img-text img{
+    width: 450px;
+    height: 400px;
+    padding: 1rem 2rem;
+    border-radius: 6rem;
+    border: none;
+}
+
+.img-text h2{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    color: white;
+}
+
+.navwrap{
+    padding-top: .5rem;
+}
+
+.navwrap h2{
+    padding-left: 9rem;
+    color: white;
+    text-align: center;
+}
+
+button{
+    margin-top: 13rem;
+    margin-left: 9rem;
+    gap: 1rem;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.text h3{
+    text-align: center;
+    color: white;
+}
+
+.image-text img{
+    width: 200px;
+    height: 200px;
+    margin-left: 4rem;
+    border-radius: 10px;
+}
+
+.image-text h3{
+    color: white;
+    text-align: center;
+    padding-left: 3rem;
+
+}
+
+.all{
+    display: flex;
+    width: 100%;
+    gap: 9rem;
+    padding-top: 2rem;
+}
+
+.all h3{
+    text-align: center;
+    font-size: xx-small;
+}
+
+.footer{
+    background-color: white;
+}
+
+.footer nav{
+    height: auto;
+    display: flex;
+    gap: 11rem;
+}
+
+.footer nav img{
+    width: 200px;
+    height: 50px;
+    padding-top: 7px;
+    padding-left: 2rem;
+}
+
+.menu menu ul{
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    color: orange;
+    display: block;
+    cursor: pointer;
+}
+
+
+.contact menu ul{
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    color: orange;  
+}
+
+
+.contact menu ul span img{
+    width: 30px;
+    height: 30px;
+    padding-left: 0.1rem;
+}
+
+.flex-img a img{
+    width: 70px;
+    align-items: end;
+    align-self: end;
+    position: relative;
+    justify-content: end;
+}
